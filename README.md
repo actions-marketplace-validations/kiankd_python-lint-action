@@ -11,6 +11,6 @@ workflow "Lint on Push" {
 }
 
 action "Lint" {
-  uses = "wrboyce/python-lint-action@master"
+  uses = "kiankd/python-lint-action@master"
 }
 ```
